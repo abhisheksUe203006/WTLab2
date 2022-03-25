@@ -1,0 +1,40 @@
+
+
+.heading
+{
+    margin:auto;
+    width:50%;
+    text-align: center;
+    
+}
+.main
+{
+    
+    display:flex;
+    flex-flow: row;
+}
+.left,.right
+{
+    min-height: 1px;
+    width:33%;
+    
+}
+
+.list
+{
+    display:flex;
+    flex-flow: column;
+    flex :1;    
+}
+
+.item:hover
+{
+    background-color:red;
+}
+.item
+{
+    padding:10px;
+    text-align: center;
+    border-color: rgb(216, 29, 176);
+}
+

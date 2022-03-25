@@ -1,0 +1,28 @@
+
+
+.heading
+{
+    margin:auto;
+    width:50%;
+    text-align: center;
+    
+}
+.main
+{
+    
+    display:flex;
+}
+.left,.right
+{
+    min-height: 1px;
+    width:33%;
+    
+}
+
+.list
+{
+    display:flex;
+    flex-flow: column;
+    flex :1;
+    
+}
